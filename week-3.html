@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        ON VS CODE
+    </title>
+    <style>
+        
+        body{
+        
+            background:linear-gradient(yellow 0% ,lightgreen 60%,silver 100%)
+            
+        }
+
+        body::first-letter{
+            color:azure;
+            background-color: slateblue;
+
+        }
+
+        
+        a:hover{
+            background-color:blanchedalmond;
+            color:#7c2458
+        }
+        div:target{
+            border:3px solid #808080;
+            background-color: #7ea022;
+        }
+        p::first-letter{
+            color:rgb(0, 255, 42);
+            font-size:xx-large;
+            margin: 7px;
+        }
+        p::first-line{
+            color: aqua;
+            font-variant: small-caps;
+        }
+        h2::before{
+            content:url(smiley.gif);
+            border-style: double;
+        }
+        h1::after{
+            content:url(smiley.gif);
+            display: inline-block;
+            border-style: double;
+        }
+        ::selection{
+            color:lightgreen;
+            background-color: aqua;
+        }
+        a:active{
+            color: darkgoldenrod;
+            background-color: aqua;
+            ;
+        }
+        .try{
+            border-style: dotted;
+            margin:5px;
+            border-color: rgb(238, 52, 20);
+            font-variant: small-caps;
+            border-radius: 3%;
+            line-height: 2pc;
+            width: 800px;
+            transition-property: white ,700px,black,50% ;
+            transition-duration: .5s;
+            transition-timing-function: linear;
+            transition-delay: .5s;
+
+            transform:skew(1deg,6deg);
+        }
+        .try:hover{
+            color:white;
+            width: 1000px;
+            background:black;
+            border-radius:3%;
+        }
+        .try:active{
+            color:lime;
+            width:800px;
+            border-radius: 3%;
+            background:linear-gradient(pink 0% ,blue 60%,green 100%);
+        }
+        form{
+            text-align: center;
+            border-style:double;
+            border-color:red;
+            border-radius: 3%;
+            border: width 55px;
+             
+        }
+
+    </style>
+</head>
+<body>
+    <h1>HELLO EVERY ONE </h1><br>
+    <div class="try">
+    <p>so this page contains all types of classes and pseudo elements</p>
+    <p1>i think are u ready</p1>
+    <h1 class="hello">its on the h1 class</h1>
+    <p1 class="mm">this paragraph shows you that how the css functions vary from one to one on the 
+        software here we discuss the :first-line,::margin,::selector,and so onnn    </p1>
+        <h2>this is content at before AND after</h2>
+        <a href ="https://www.coursera.org/learn/introcss/supplement/C9NkD/resources">ITS COURSERA</a>
+        <a href="https://web.whatsapp.com/">whatsapp</a>
+        <h3>so this is form</h3>
+        <form acation=""">
+        First name:<input type="text" value="ram"><br>
+        Second name:<input type="text" value ="type" disabled="disabled"><br>
+
+    </form>
+    </div>
+    <p3>hower</p3>
+    <div class="hai">
+    <h4>this is target type</h4>
+    <p><a href="#one">jump to one</a></p>
+    <p><a href = "#two">goto 2</a></p>
+    <p>-----------------------
+        ---------------------
+    </p>
+    <p id="one"><b>THIS IS ONE</b></p>
+    <p id="two"><b>THIS IS TWO</b></p></div>
+</body>
